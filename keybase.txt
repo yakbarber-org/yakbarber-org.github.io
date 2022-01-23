@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/grafoo
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://yakbarber.org
+  * I am grafoo (https://keybase.io/grafoo) on keybase.
+  * I have a public key with fingerprint 1CFA 722C 1EF7 F75E 5125  9251 D2AD 9DEE B709 B6E0
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101da35431c7a4ed5ec3308de3c4a7ba200ce4aabc6b20ef9a5d6dd61b89648ebd80a",
+      "fingerprint": "1cfa722c1ef7f75e51259251d2ad9deeb709b6e0",
+      "host": "keybase.io",
+      "key_id": "d2ad9deeb709b6e0",
+      "kid": "0101da35431c7a4ed5ec3308de3c4a7ba200ce4aabc6b20ef9a5d6dd61b89648ebd80a",
+      "uid": "0343657c28f2477cdbd65a101ca18319",
+      "username": "grafoo"
+    },
+    "service": {
+      "hostname": "yakbarber.org",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1642963516,
+  "expire_in": 157680000,
+  "prev": "c013f736624c17776f93550c5c373b6e34dd9a511cb2c66d715000d23853183e",
+  "seqno": 9,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.13
+Comment: https://keybase.io/crypto
+
+yMIpAnicrVJbSBVBGN6TGWmcjJAypKCNokRsZ2d3dvfUUxFSSkKEBUmn2ZnZ46Ke
+Pe5ZtUMqFIhFYWlqSYEkJN1IowsGERZ2tQJRUSKNLkQlRiWB0YPNdnnrsXkZ5v+/
+7/u//2P6gklCakCeNXY4r+3tYKD/TmuFgCc71u8TTYcmxNA+sYT9ulgpZXEvXGJT
+MSRKQAIUQ1WBgGhYYVRlBEJJpwwSBWsmliWJMAVjkyBTlphlYJUiShEwdQMpOjOp
+LmExW7TsaIS5MdeOelwWEAtrskwAszRLU5kKZNWQVUBlTA3KmKlJhomYxInFTtxn
+cHMmjrMc2+E1/gj/svcP/H/2XfFbDioQqRqRdUtWNI1QkyIV8xkEAx0CwwfGmRvF
+ZYyjIy62HEesyRZ5rdImzI/V3+NPP4FLTOyazM1x3AinxlzHc4hTylvFnheLh3yq
+l4j52Cpmhv+ohE07SnmMnFHJ3LjtRMUQ4Eji2b4sQIpsIKgClC2yvTHbZWHbR6ga
+0iV+/DmskksSCUBLgwjJCgGapiHLgKoqEZVADfIUoUIpjwMAYsoEIaoBldOpDHUV
+8m2Z6O9VHnXEkMFt4giXjNuRKPYqXCbW3O0tmi0EUoU5ybP87yWkpiz4++nOp88V
+rqKC72/zn71avrerXljcVBF8Mtmb0dUeyF/VVi10zPSVX3xXWP35WOXIyuXNw7vs
+gk9Dya2ZbzJSMlYsuvXtx/OeqXr5/fGvZ0arj8K554peXmjsDlweyOsd+9C15s1I
++syxoemHiakvadOPr1oLzfD1a9uzYPWSptC3dS9qV+cGTy1Ozhqru1STdqGnOX/D
+obziI0/TnaXGzaLNDS3B/UkFj7pz5mXd15ckD+3YDYePWhs3vFy252RhcPLAx8aB
+bc23J+t67uWmjZ6omjp7Yq30vWlLXXv54NaGcefmxFTt5xuRg/PH58x4r4XTmQ++
+bGqp2r2zLAGna0v7Wzon6gtHO69sPfkTyQxHjQ==
+=oNMy
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/grafoo
+
+==================================================================
