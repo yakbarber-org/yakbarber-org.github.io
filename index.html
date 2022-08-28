@@ -1,32 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta name="generator" content=
-  "HTML Tidy for HTML5 for Linux version 5.6.0">
-  <meta name="viewport" content=
-  "width=device-width, initial-scale=1.0">
-  <title>Words by Manuel Graf</title>
-  <style type="text/css">
-    main {
-      display: grid;
-      grid-templae-columns: 1fr min(65ch, 100%) 1fr; 
-    }
-    main > article {
-      grid-column: 2;
-    }
-  </style>
-</head>
-<body>
-  <main>
-    <article>
-      <h1>Das Eine aus dem Nichts</h1>
-      <p>Am Anfang war das Nichts und das Nichts verschwand.</p>
-      <p>Am Anfang war das Und das verschwand.</p>
-      <p>Am Anfang war Das das verschwand.</p>
-      <p>Am Anfang war das Verschwand.</p>
-      <p>Verschwand.</p>
-      <p>.</p>
-    </article>
-  </main>
-</body>
+    <head>
+	<meta charset="utf-8">
+	<title>words</title>
+	<meta name="viewport"
+	      content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js"></script>
+
+	<link rel="stylesheet"
+	      href="https://use.fontawesome.com/releases/v6.1.2/css/all.css"
+	      integrity="sha384-fZCoUih8XsaUZnNDOiLqnby1tMJ0sE7oBbNk2Xxf5x8Z4SvNQ9j83vFMa/erbVrV"
+	      crossorigin="anonymous"/>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,700;1,400;1,700&family=IBM+Plex+Sans:ital,wght@0,400;0,700;1,400;1,700&family=IBM+Plex+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+	<main>
+	    <header>
+		<h1>Das Eine aus dem Nichts</h1>
+		<p>Am Anfang war das <em class="fade-1">Nichts</em> und das <em class="fade-1">Nichts</em> verschwand.</p>
+		<p>Am Anfang war das <em class="fade-2">Und</em> das verschwand.</p>
+		<p>Am Anfang war <em class="fade-3">Das</em> das verschwand.</p>
+		<p>Am Anfang war das <em class="fade-4">Verschwand</em>.</p>
+		<p><em class="fade-5">Verschwand</em>.</p>
+		<p>.</p>
+	    </header>
+
+	    <hr>
+	</main>
+
+	<nav id="menu">
+	    <i id="menu-icon" class="fa-solid fa-bars"></i>
+	    <i id="menu-icon-close" class="fa-solid fa-xmark"></i>
+
+	    <div id="menu-content">
+		<strong>cv</strong>
+		<a href="cv">html</a>
+		<a href="cv.pdf">pdf</a>
+
+		<strong>contact</strong>
+		<a href="https://keybase.io/grafoo">Keybase <i class="fa-brands fa-keybase"></i></a>		
+		<a href="https://github.com/grafoo">GitHub <i class="fa-brands fa-github"></i></a>
+		<a href="mailto:postmaster@yakbarber.org">Mail <i class="fa-solid fa-at"></i></a>
+		<a href="https://twitter.com/ManuelGraf">Twitter <i class="fa-brands fa-twitter"></i></a>
+		<a href="https://stackoverflow.com/users/3045878/grafoo">Stack Overflow <i class="fa-brands fa-stack-overflow"></i></a>
+		<a href="https://www.linkedin.com/in/manuelgraf">LinkedIn <i class="fa-brands fa-linkedin"></i></a>		
+
+		<span id="colors">
+		    <i id="scheme-icon-light" class="fa-solid fa-sun"></i>
+		    <span>|</span>
+		    <i id="scheme-icon-dark" class="fa-solid fa-moon"></i>		    
+		</span>
+	    </div>
+	</nav>
+    </body>
 </html>
