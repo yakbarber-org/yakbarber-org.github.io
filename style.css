@@ -78,6 +78,7 @@ nav {
     position: sticky;
     top: 2rem;
     z-index: 1;
+    margin-left: auto;
 }
 
 nav strong {
@@ -118,6 +119,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-left: auto;
 }
 
 main a {
