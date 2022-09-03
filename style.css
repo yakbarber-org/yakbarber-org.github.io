@@ -248,6 +248,11 @@ main>header {
     align-self: center;
 }
 
+main>article {
+    align-self: center;
+    width: 65ch;
+}
+
 #colors {
     margin-top: 100px;
     align-self: center;
