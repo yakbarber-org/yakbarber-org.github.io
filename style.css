@@ -225,7 +225,7 @@ hr {
 }
 
 hr::after {
-    content: "\0221e";
+    content: "¶";
     display: inline-block;
     position: relative;
     top: -0.8rem;
@@ -237,7 +237,7 @@ hr::after {
 
 #menu-content {
     display: none;
-    width:9rem;
+    width: 9rem;
 }
 
 #menu-icon-close {
@@ -248,9 +248,9 @@ main>header {
     align-self: center;
 }
 
-main>article {
-    align-self: center;
-    width: 65ch;
+main>article>section {
+    columns: 2 auto;
+    overflow-x: hidden;
 }
 
 #colors {
