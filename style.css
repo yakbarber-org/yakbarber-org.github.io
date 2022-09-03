@@ -259,6 +259,11 @@ main>article>section {
 }
 
 @media only screen and (max-width: 768px) {
+    body {
+	padding-left: 5%;
+	padding-right: 5%;
+    }
+
     main>article>section {
 	columns: 1 auto;
     }
