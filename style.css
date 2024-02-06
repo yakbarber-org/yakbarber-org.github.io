@@ -268,3 +268,8 @@ main>article>section {
 	columns: 1 auto;
     }
 }
+
+textarea {
+    background-color: var(--color-background);
+    color: var(--color);
+}
