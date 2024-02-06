@@ -1,0 +1,3 @@
+[submodule "bqn"]
+	path = bqn
+	url = git@github.com:grafoo/bqn.git
