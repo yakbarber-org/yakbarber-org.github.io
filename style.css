@@ -269,7 +269,14 @@ main>article>section {
     }
 }
 
-textarea {
+body > main > article > div.cont{
+    columns: 1 auto;
+    overflow-x: hidden;
+    column-width: 65ch;
+    margin: 2rem;
+    column-gap: -10.1em;
+}
+body > main > article > div.cont >textarea {
     background-color: var(--color-background);
     color: var(--color);
 }
