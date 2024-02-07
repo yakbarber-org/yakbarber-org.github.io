@@ -279,4 +279,9 @@ body > main > article > div.cont{
 body > main > article > div.cont >textarea {
     background-color: var(--color-background);
     color: var(--color);
+	width:99%;
+}
+body > main > article > div.cont >input {
+    background-color: var(--color-background);
+    color: var(--color);
 }
