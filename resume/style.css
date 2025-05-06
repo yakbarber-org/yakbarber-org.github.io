@@ -100,17 +100,6 @@ h3 {
     text-align: center;
 }
 
-section > header {
-  position: sticky;
-  top: 0;
-}
-
-section > article > small {
-  position: sticky;
-  top: 1rem;
-  align-self:start;
-}
-
 article > header > h1 {
     text-align: center;
 }
@@ -271,14 +260,18 @@ section > header > h1 {
     /* main > header{ */
         /* all:reset; */
 	/* } */
-
+main >header >h1{
+    padding-left:90mm;
+}
 	#avatar{
 	    /* all:reset; */
-	    padding-left:65mm;
+	    /* padding-left:65mm; */
+    display: none !important;
 	}
 
 	address {
-	    padding-left:74mm;
+	    /* padding-left:90mm; */
+    display: none !important;
 	}
 
     /* nav, main > footer, #education > article > em > abbr > a { */
@@ -305,16 +298,17 @@ section > header > h1 {
     }
 
     section {
-        padding-top: 2rem;
+        padding-top: 0rem;
+    padding-bottom: 0rem;
     }
 
   /* main > header { */
   /* page-break-after: always; */
   /* } */
 
-       main {
-    	padding-top: 10rem;
-       }
+       /* main { */
+    	/* padding-top: 10rem; */
+       /* } */
     @page {
          size: A4; /\* DIN A4 standard, Europe *\/
          margin-top:20mm;
